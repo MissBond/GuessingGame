@@ -1,0 +1,95 @@
+/*HEADER*/
+
+
+
+/*MAIN*/
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+      
+img {
+  display: inline;
+  height: 100px;
+  width: 200px;
+}
+
+body {
+  
+  background-image: url('https://i.pinimg.com/236x/b8/6d/9d/b86d9d3dad73930ed6f656bb47ecab1a--question-mark-movies-free.jpg');
+
+}
+
+.center {
+  text-align: center;
+}
+
+#headers {
+  margin-top: 5%;
+  font-family: 'Sunflower', sans-serif;
+}
+
+h1#title {
+  font-size: 60px;
+}
+
+h2#subtitle {
+  font-size: 36px;
+}
+
+#app {
+  width: 60%;
+  margin: 50px auto;
+  background-color: rgba(256, 256, 256, 0.5);
+}
+
+#input-parent {
+  margin: 5% auto 50px;
+  width: 160px;
+  position: relative;
+}
+
+#player-input {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  font-size: 60px;
+}
+
+#submit {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 110px;
+  left: 110px;
+}
+
+.guess {
+  background-color: #fff;
+  border: 1.5px solid #000000;
+  border-radius: 13%;
+  display: inline;
+  font-size: 60px;
+  margin: .3%;
+  padding: 0 35px;
+}
+
+
+/*FOOTER*/
+
+#footer {
+  background-color: white;
+  border-top: solid 2px black;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+img#logo {
+    margin-top: 5%;
+    width: 280px;
+    height: 35px;
+}
+ 

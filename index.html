@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <!-- Favicon-->
+    <link rel="icon" type="image/png" href="https://www.favicon.cc/logo3d/153674.png">
+
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Sunflower:300" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <body>
+
+      <div id='app' class='center container'>
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1 id='title'>Guessing Game</h1>
+          <h2 id='response'></h2>
+          <h2 id='subtitle'>Guess a number between 1-100</h2>
+          <h2 id='hints'></h2>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+           <input placeholder="#" maxlength='3' autofocus=autofocus type="text" name="guesses" id='player-input' class='center'></input>
+           <button id="submit" class='btn btn-info'>Play!</button>
+          </div>
+
+          <div id='guesses' class='row'>
+            <!-- unordered list of guesses -->
+            <ul id="guessList">
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+            </ul>
+        </div>
+
+          <div id="menu-btns">
+            <button id='reset' class='btn btn-warning'>Reset</button>
+            <button id='hint' class='btn btn-info'>Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class='center'>
+      <div class='row'>
+
+        <div class='col-sm-4'>
+            <img src='img/fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-sm-4'>
+            <img id="logo" src='img/db-logo.png'></img>
+            <h4>Project by Danielle Bond</h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img src='img/grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+
+     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+     <script src="js/GuessingGame.js"></script>
+   
+  </body>
+</html>
